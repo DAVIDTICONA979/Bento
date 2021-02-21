@@ -8,7 +8,7 @@ const name = '  David Ticona';
 // Here you can change your greetings
 const gree1 = 'Anda a dormir  ';
 const gree2 = 'Buenos días, como vas  ';
-const gree3 = 'Buenos tardes  ';
+const gree3 = 'Buenas tardes  ';
 const gree4 = 'Ya se hace de noche ,  ';
 const gree5 = 'Debes desacanzar,  ';
 const gree6 = 'Quiza y me voy de viaje,  ';
