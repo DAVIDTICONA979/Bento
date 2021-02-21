@@ -13,7 +13,7 @@ var tempUnit = 'C';
 
 const KELVIN = 273.15;
 // Use your own key for the Weather, Get it here: https://openweathermap.org/
-const key = '41201ebc3af1898d1a9f406b3f2756ee';
+const key = '56e5712d5aa3b78ce7e7b5c9d62eb1c1';
 
 // Set Position function
 setPosition();
@@ -29,7 +29,7 @@ function setPosition(position) {
 
 // Get the Weather data
 function getWeather(latitude, longitude) {
-  let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${41201ebc3af1898d1a9f406b3f2756ee}`;
+  let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
 
   console.log(api);
 
